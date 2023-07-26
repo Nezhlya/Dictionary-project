@@ -4,12 +4,6 @@ export default function Meaning(props) {
   console.log(props.meaning.synonyms)
   return (
     <div>
-      <div>
-        <p>{props.meaning.definitions[0].definition}</p>
-        <p>
-          <em>{props.meaning.definitions[0].example}</em>
-        </p>
-      </div>
 
       <h3> {props.meaning.partOfSpeech} </h3>
       <div>
@@ -19,14 +13,16 @@ export default function Meaning(props) {
               <p>
                 <strong>Definition: </strong>
                 {definition.definition}
-                <br />
+                <br/>
                 <em>{definition.example}</em>
-                <Synonyms synonyms={definition.synonyms} />
               </p>
             </div>
           );
         })}
-      </div>
-    </div>
+        </div>
+       <Synonyms synonyms={props.meaning.synonyms} />
+ </div>
+      
+    
   );
 }
