@@ -9,7 +9,6 @@
 
 .word {
   text-decoration: underline;
-  text-align: center;
 }
 
 .synonyms {
@@ -23,3 +22,20 @@
   margin-left: 20px;
 }
 
+.phonetics a {
+  border: 1px solid #ddd;
+  text-decoration: none;
+  padding: 8px 15px;
+  font-size: 13px;
+  margin-right: 10px;
+  font-weight: bold;
+  border-radius: 20px;
+}
+.photos img{
+  margin-bottom: 50px;
+  border-radius: 10px;
+}
+.coder {
+  margin-bottom: 20px;
+  text-align: center;
+}
