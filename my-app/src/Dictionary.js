@@ -43,9 +43,20 @@ export default function Dictionary() {
     <div className="container">
       <div className="dictionary">
         <section className="text-center">
-          <h1>
-            <b>Dictionary</b>
-          </h1>
+          <div>
+            <h4 className="wordCarousel">
+              <span>Dictionary: </span>
+              <div>
+                <ul className="flip5">
+                  <li>Enormity</li>
+                  <li>Lieutenant</li>
+                  <li>Brewery</li>
+                  <li>Squirrel🐿</li>
+                  <li>Quiescent</li>
+                </ul>
+              </div>
+            </h4>
+          </div>
           <br />
           <div>
             Which word are you interested in searching?
@@ -61,7 +72,6 @@ export default function Dictionary() {
         </section>
         <Results results={results} />
         <Photos photos={photos} />
-      
       </div>
     </div>
   );
