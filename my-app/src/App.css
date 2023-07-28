@@ -1,19 +1,25 @@
-
-.container {
-  margin:40px;
-  padding:20px;
- font-family: 'Patrick Hand', cursive;
+.dictionary section {
+  margin: 40px;
+  padding: 40px;
+  font-family: "Patrick Hand", cursive;
+  background-color: rgba(146, 140, 231, 0.2);
+  border-radius: 10px;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.2);
 }
 
-.word{
+.word {
   text-decoration: underline;
+  text-align: center;
 }
 
-
-
-.form{
-  margin:30px;
+.synonyms {
+ text-align: justify;
 }
-.form input{
-  margin-left: 10px
+
+.form {
+  margin: 30px;
 }
+.form input {
+  margin-left: 20px;
+}
+
