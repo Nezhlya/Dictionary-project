@@ -21,7 +21,7 @@ export default function Photos(props) {
           })}
         </div>
         <p className="coder">
-          <a href="https://github.com/Nezhlya/Dictionary-project">
+          <a href="https://github.com/Nezhlya/Dictionary-project" target="_blank">
             Open-source code
           </a>{" "}
           in GitHub by Nezhlya Emin
